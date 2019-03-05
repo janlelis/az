@@ -23,6 +23,8 @@ $ az "character.construction" --to bold
 
 You can also directly copy to your system clipboard using the `--copy` option
 
+To see a list of all fonts included, run: `$ az --fonts`
+
 ### From Ruby
 
 ```ruby

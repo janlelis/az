@@ -1,6 +1,6 @@
 ## CHANGELOG
 
-### Next
+### 2.0.0
 #### New CLI Options
 - Add `--copy` option to directly copy to clipboard
 - Add `--fonts` option which displays list of included fonts
