@@ -1,6 +1,6 @@
 ## CHANGELOG
 
-### Next
+### 2.0.1
 - Fix italic font to include Planck constant
 
 ### 2.0.0
