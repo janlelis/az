@@ -57,7 +57,10 @@ else
 end
 
 begin
-  puts Az.az(data, argv[:to])
+  puts Az.az(
+    data,
+    (argv[:to] or raise ArgumentError, "must specify font via --to option"),
+  )
 rescue ArgumentError
   $stderr.puts Paint[$!.message, :red]
   exit(1)
