@@ -1,0 +1,64 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require "rationalist"
+require "paint"
+require "az"
+
+argv = Rationalist.parse(
+  ARGV,
+  string: '_',
+  alias: {
+    t: 'to',
+    v: 'version',
+  },
+  boolean: [
+    'fonts',
+    'help',
+    'version',
+  ]
+)
+
+if argv[:version]
+  puts "az #{Az::VERSION} by #{Paint["J-_-L", :bold]} <https://github.com/janlelis/az>"
+  puts "Unicode version is #{Az::UNICODE_VERSION}"
+  exit(0)
+end
+
+if argv[:help]
+  puts <<-HELP
+
+  #{Paint["DESCRIPTION", :underline]}
+
+  Translates Latin ASCII characters to funky Unicode ones.
+
+  #{Paint["USAGE", :underline]}
+
+  #{Paint["az", :bold]} data --to font
+
+  --fonts               |    | displays list of fonts
+  --help                |    | this help page
+  --version             | -v | displays version of az
+
+  #{Paint["MORE INFO", :underline]}
+
+  https://github.com/janlelis/az
+
+  HELP
+  exit(0)
+end
+
+if argv[:_] && argv[:_][0]
+  data = argv[:_][0]
+elsif !$stdin.tty?
+  data = $stdin.read
+else
+  data = nil
+end
+
+begin
+  puts Az.az(data, argv[:to])
+rescue ArgumentError
+  $stderr.puts Paint[$!.message, :red]
+  exit(1)
+end
