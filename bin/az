@@ -3,6 +3,7 @@
 
 require "rationalist"
 require "paint"
+require "clipboard"
 require "az"
 
 argv = Rationalist.parse(
@@ -11,11 +12,13 @@ argv = Rationalist.parse(
   alias: {
     t: 'to',
     v: 'version',
+    c: 'copy',
   },
   boolean: [
     'fonts',
     'help',
     'version',
+    'copy'
   ]
 )
 
@@ -36,6 +39,8 @@ if argv[:help]
 
   #{Paint["az", :bold]} data --to font
 
+  --to                  | -t | specify font to use (required)
+  --copy                | -c | copy to clipboard instead of displaying on stdout
   --fonts               |    | displays list of fonts
   --help                |    | this help page
   --version             | -v | displays version of az
@@ -57,10 +62,16 @@ else
 end
 
 begin
-  puts Az.az(
+  res = Az.az(
     data,
     (argv[:to] or raise ArgumentError, "must specify font via --to option"),
   )
+  if argv[:copy]
+    Clipboard.copy(res)
+    puts "Converted string has been copied to the clipboard"
+  else
+    puts res
+  end
 rescue ArgumentError
   $stderr.puts Paint[$!.message, :red]
   exit(1)

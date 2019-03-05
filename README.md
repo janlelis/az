@@ -21,6 +21,8 @@ $ az "character.construction" --to bold
 # 𝐜𝐡𝐚𝐫𝐚𝐜𝐭𝐞𝐫.𝐜𝐨𝐧𝐬𝐭𝐫𝐮𝐜𝐭𝐢𝐨𝐧
 ```
 
+You can also directly copy to your system clipboard using the `--copy` option
+
 ### From Ruby
 
 ```ruby
