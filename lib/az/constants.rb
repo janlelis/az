@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 module Az
-  VERSION = "1.0.0"
+  VERSION = "1.0.1"
   UNICODE_VERSION = "12.0.0"
 
   FONTS = {
