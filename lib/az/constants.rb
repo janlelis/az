@@ -7,7 +7,7 @@ module Az
   FONTS = {
     ascii: "A-Za-z",
     bold: "𝐀-𝐙𝐚-𝐳",
-    italic: "𝐴-𝑍𝑎-𝑧",
+    italic: "𝐴-𝑍𝑎-𝑔ℎ𝑖-𝑧",
     bold_italic: "𝑨-𝒁𝒂-𝒛",
     italic_bold: "𝑨-𝒁𝒂-𝒛",
     monospace: "𝙰-𝚉𝚊-𝚣",

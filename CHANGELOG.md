@@ -1,5 +1,8 @@
 ## CHANGELOG
 
+### Next
+- Fix italic font to include Planck constant
+
 ### 2.0.0
 #### New CLI Options
 - Add `--copy` option to directly copy to clipboard

@@ -49,6 +49,10 @@ describe "az" do
     assert_equal "🇫🇷🇴🇲 🇦 🇹🇴 🇿", az("From A to Z", :region)
     assert_equal "󠁆󠁲󠁯󠁭 󠁁 󠁴󠁯 󠁚", az("From A to Z", :tag)
   end
+
+  it "works to convert an h to italic" do
+    assert_equal "𝑐ℎ𝑎𝑟𝑎𝑐𝑡𝑒𝑟.𝑐𝑜𝑛𝑠𝑡𝑟𝑢𝑐𝑡𝑖𝑜𝑛", az("character.construction", :italic)
+  end
 end
 
 
