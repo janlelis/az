@@ -53,6 +53,11 @@ if argv[:help]
   exit(0)
 end
 
+if argv[:fonts]
+  puts Az.fonts.join(" ")
+  exit(0)
+end
+
 if argv[:_] && argv[:_][0]
   data = argv[:_][0]
 elsif !$stdin.tty?

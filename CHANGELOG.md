@@ -1,9 +1,9 @@
 ## CHANGELOG
 
 ### Next
-
 #### New CLI Options
 - Add `--copy` option to directly copy to clipboard
+- Add `--fonts` option which displays list of included fonts
 
 #### Font Changes
 - Rename script to script_bold and add (light) 𝓈𝒸𝓇𝒾𝓅𝓉
