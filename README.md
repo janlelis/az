@@ -45,10 +45,13 @@ sans                                | 𝖥𝗋𝗈𝗆 𝖠 𝗍𝗈 𝖹
 sans_bold                           | 𝗙𝗿𝗼𝗺 𝗔 𝘁𝗼 𝗭
 sans_italic                         | 𝘍𝘳𝘰𝘮 𝘈 𝘵𝘰 𝘡
 sans_bold_italic / sans_italic_bold | 𝙁𝙧𝙤𝙢 𝘼 𝙩𝙤 𝙕
-script                              | 𝓕𝓻𝓸𝓶 𝓐 𝓽𝓸 𝓩
-fraktur                             | 𝕱𝖗𝖔𝖒 𝕬 𝖙𝖔 𝖅
-small_caps                          | Fʀᴏᴍ A ᴛᴏ Z
+script                              | ℱ𝓇ℴ𝓂 𝒜 𝓉ℴ 𝒵
+bold_script / script_bold           | 𝓕𝓻𝓸𝓶 𝓐 𝓽𝓸 𝓩
+fraktur                             | 𝔉𝔯𝔬𝔪 𝔄 𝔱𝔬 ℨ
+bold_fraktur / fraktur_bold         | 𝕱𝖗𝖔𝖒 𝕬 𝖙𝖔 𝖅
 parentheses                         | 🄕⒭⒪⒨ 🄐 ⒯⒪ 🄩
+small_caps                          | Fʀᴏᴍ A ᴛᴏ Z
+double_struck                       | 𝔽𝕣𝕠𝕞 𝔸 𝕥𝕠 ℤ
 circled                             | Ⓕⓡⓞⓜ Ⓐ ⓣⓞ Ⓩ
 circled_upper / upper_circled       | ⒻⓇⓄⓂ Ⓐ ⓉⓄ Ⓩ
 circled_negative / negative_circled | 🅕🅡🅞🅜 🅐 🅣🅞 🅩
