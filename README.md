@@ -1,4 +1,4 @@
-# az [![[version]](https://badge.fury.io/rb/az.svg)](https://badge.fury.io/rb/az)  [![[travis]](https://travis-ci.org/janlelis/az.png)](https://travis-ci.org/janlelis/az)
+# Generate Alternative Unicode Representations of A - Z [![[version]](https://badge.fury.io/rb/az.svg)](https://badge.fury.io/rb/az)  [![[ci]](https://github.com/janlelis/az/workflows/Test/badge.svg)](https://github.com/janlelis/az/actions?query=workflow%3ATest)
 
 Going from A to Z in different ways. It will translate Latin ASCII characters to funky Unicode ones.
 

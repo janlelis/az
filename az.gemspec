@@ -5,8 +5,8 @@ require File.dirname(__FILE__) + "/lib/az/constants"
 Gem::Specification.new do |gem|
   gem.name          = "az"
   gem.version       = Az::VERSION
-  gem.summary       = "Collects different ways of A-Z"
-  gem.description   = "Going from A to Z in different ways"
+  gem.summary       = "Going from A to Z in different ways"
+  gem.description   = "Generate Alternative Unicode Representations of A - Z"
   gem.authors       = ["Jan Lelis"]
   gem.email         = ["hi@ruby.consulting"]
   gem.homepage      = "https://github.com/janlelis/az"
