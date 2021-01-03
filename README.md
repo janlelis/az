@@ -69,4 +69,4 @@ tag                                 | `󠁆󠁲󠁯󠁭 󠁁 󠁴󠁯 󠁚`
 - [character.construction/az](https://character.construction/az)
 - CLI: [uniscribe](https://github.com/janlelis/uniscribe)
 
-Copyright (C) 2019-2020 Jan Lelis <https://janlelis.com>. Released under the MIT license.
+Copyright (C) 2019-2021 Jan Lelis <https://janlelis.com>. Released under the MIT license.
