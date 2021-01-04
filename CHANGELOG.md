@@ -1,5 +1,8 @@
 ## CHANGELOG
 
+### 2.0.2
+- Relax Ruby version requirement to allow Ruby 3.0
+
 ### 2.0.1
 - Fix italic font to include Planck constant
 
