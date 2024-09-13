@@ -2,7 +2,7 @@
 
 module Az
   VERSION = "2.0.2"
-  UNICODE_VERSION = "12.0.0"
+  UNICODE_VERSION = "16.0.0"
 
   FONTS = {
     ascii: "A-Za-z",
@@ -29,6 +29,8 @@ module Az
 
     small_caps: "A-Zᴀʙᴄᴅᴇꜰɢʜɪᴊᴋʟᴍɴᴏᴩqʀꜱᴛᴜᴠᴡxyᴢ", # upper remains ascii
     double_struck: "𝔸𝔹ℂ𝔻-𝔾ℍ𝕀-𝕄ℕ𝕆ℙℚℝ𝕊-𝕐ℤ𝕒-𝕫",
+
+    outlined: "𜳖-𜳯𜳖-𜳯", # added in Unicode 16, now lower
 
     circled: "Ⓐ-Ⓩⓐ-ⓩ",
     circled_upper: "Ⓐ-ⓏⒶ-Ⓩ",

@@ -35,7 +35,7 @@ az "character.construction", :fraktur
 
 ## Included Fonts
 
-**Please note:** Be sure to understand that the output from az does not change the real font, but displays these special "font" codepoints within the actual font.
+**Please note:** Be sure to understand that the output from az does not change the real font, but displays these special "font" codepoints within the actual font. Also note that assistive technology might be unable to properly interpret these.
 
 Font                                | Output
 ------------------------------------|------------
@@ -56,6 +56,7 @@ bold_fraktur / fraktur_bold         | 𝕱𝖗𝖔𝖒 𝕬 𝖙𝖔 𝖅
 parentheses                         | 🄕⒭⒪⒨ 🄐 ⒯⒪ 🄩
 small_caps                          | Fʀᴏᴍ A ᴛᴏ Z
 double_struck                       | 𝔽𝕣𝕠𝕞 𝔸 𝕥𝕠 ℤ
+outlined                            | 𜳛𜳧𜳤𜳢 𜳖 𜳩𜳤 𜳯
 circled                             | Ⓕⓡⓞⓜ Ⓐ ⓣⓞ Ⓩ
 circled_upper / upper_circled       | ⒻⓇⓄⓂ Ⓐ ⓉⓄ Ⓩ
 circled_negative / negative_circled | 🅕🅡🅞🅜 🅐 🅣🅞 🅩
@@ -66,7 +67,7 @@ tag                                 | `󠁆󠁲󠁯󠁭 󠁁 󠁴󠁯 󠁚`
 
 ## Also see
 
-- [character.construction/az](https://character.construction/az)
-- CLI: [uniscribe](https://github.com/janlelis/uniscribe)
+- [character.construction/az](https://character.construction/az) - lists all letters on one page
+- [uniscribe](https://github.com/janlelis/uniscribe) - commandline utility that explains characters
 
 Copyright (C) 2019-2024 Jan Lelis <https://janlelis.com>. Released under the MIT license.
