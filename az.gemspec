@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.name          = "az"
   gem.version       = Az::VERSION
   gem.summary       = "Going from A to Z in different ways"
-  gem.description   = "Generate Alternative Unicode Representations of A - Z"
+  gem.description   = "[Unicode 16.0] Generate Alternative Unicode Representations of A - Z"
   gem.authors       = ["Jan Lelis"]
   gem.email         = ["hi@ruby.consulting"]
   gem.homepage      = "https://github.com/janlelis/az"

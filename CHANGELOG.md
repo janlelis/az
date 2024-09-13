@@ -1,6 +1,6 @@
 ## CHANGELOG
 
-### 2.1.0 (unreleased)
+### 2.1.0
 - Incorporate new "outlined" style from Unicode 16
 - Update clipboard dependency
 
