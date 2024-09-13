@@ -1,5 +1,8 @@
 ## CHANGELOG
 
+### 2.1.0 (unreleased)
+- Update clipboard dependency
+
 ### 2.0.2
 - Relax Ruby version requirement to allow Ruby 3.0
 
