@@ -37,6 +37,7 @@ describe "az" do
     assert_equal "🄕⒭⒪⒨ 🄐 ⒯⒪ 🄩", az("From A to Z", :parentheses)
     assert_equal "Fʀᴏᴍ A ᴛᴏ Z", az("From A to Z", :small_caps)
     assert_equal "𝔽𝕣𝕠𝕞 𝔸 𝕥𝕠 ℤ", az("From A to Z", :double_struck)
+    assert_equal "𜳛𜳧𜳤𜳢 𜳖 𜳩𜳤 𜳯", az("From A to Z", :outlined)
     assert_equal "Ⓕⓡⓞⓜ Ⓐ ⓣⓞ Ⓩ", az("From A to Z", :circled)
     assert_equal "ⒻⓇⓄⓂ Ⓐ ⓉⓄ Ⓩ", az("From A to Z", :circled_upper)
     assert_equal "ⒻⓇⓄⓂ Ⓐ ⓉⓄ Ⓩ", az("From A to Z", :upper_circled)
